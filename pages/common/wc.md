@@ -21,3 +21,7 @@
 - Use standard input to count lines, words and characters (bytes) in that order:
 
 `{{find .}} | wc`
+
+- Count the number of characters from standard input:
+
+`echo "{{text}}" | wc -c`
